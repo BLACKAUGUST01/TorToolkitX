@@ -817,7 +817,7 @@ async def about_me(message):
         f"<b>Telethon Version</b>: {telever}\n"
         f"<b>Pyrogram Version</b>: {pyrover}\n"
         "<b>Created By</b>: @Yaknight\n\n"
-        "<b>Modified By</b>: @KangersHub\n\n"
+        "<b>Modified By</b>: @Wolf_Cloud\n\n"
         "<u>Currents Configs:-</u>\n\n"
         f"<b>Bot Uptime:-</b> {diff}\n"
         "<b>Torrent Download Engine:-</b> <code>qBittorrent [4.3.0 fix active]</code> \n"
@@ -933,7 +933,7 @@ async def booted(client):
     chats = get_val("ALD_USR")
     for i in chats:
         try:
-            await client.send_message(i, "The bot is booted and is ready to use.")
+            await client.send_message(i, "WOLF Cloud ☁️ worker is booted and is ready to use.")
         except Exception:
             torlog.info(f"Not found the entity {i}")
 
