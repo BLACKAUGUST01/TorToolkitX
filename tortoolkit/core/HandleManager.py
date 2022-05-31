@@ -644,7 +644,7 @@ async def set_password_zip(message):
 
 
 async def start_handler(event):
-    msg = "Hello This is TorToolkit running on heroku an instance of <a href='https://t.me/Wolf_Cloud'>For Wolf Cloud ☁️</a>. Try the repo for yourself and dont forget to put a STAR and fork."
+    msg = "Hello This is TorToolkit running on heroku an instance of <a href='https://t.me/Wolf_Cloud'>For Wolf Cloud ☁️</a>."
     await event.reply(msg, parse_mode="html")
 
 
