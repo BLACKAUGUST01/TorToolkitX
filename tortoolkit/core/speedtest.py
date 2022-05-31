@@ -18,12 +18,12 @@ async def get_speed(message):
     (result["share"])
     string_speed = f"""
 **Speedtest Result:-**
-Server Name: `{result["server"]["name"]}`
-Country: `{result["server"]["country"]}, {result["server"]["cc"]}`
-Sponsor: `{result["server"]["sponsor"]}`
-Upload: `{human_readable_bytes(result["upload"] / 8)}/s`
-Download: `{human_readable_bytes(result["download"] / 8)}/s`
-Ping: `{result["ping"]} ms`
+🔎Server Name🔍: `{result["server"]["name"]}`
+🔷Country🔷: `{result["server"]["country"]}, {result["server"]["cc"]}`
+💰Sponsor💰: `{result["server"]["sponsor"]}`
+Upload🔺: `{human_readable_bytes(result["upload"] / 8)}/s`
+Download🔻: `{human_readable_bytes(result["download"] / 8)}/s`
+📍Ping: `{result["ping"]} ms`
 ISP: `{result["client"]["isp"]}`
 """
     await imspd.delete()
